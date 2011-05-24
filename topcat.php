@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Top Cat
-Plugin URI: http://www.thunderguy.com/semicolon/wordpress/top-cat-wordpress-plugin/
-Description: Specify a principal category for posts.
-Version: 1.4
-Author: Bennett McElwee
+Plugin URI: https://github.com/gabrielmansour/topcat
+Old Plugin URI: http://www.thunderguy.com/semicolon/wordpress/top-cat-wordpress-plugin/
+Description: Specify a primary category for posts. Also compatible with other taxonomies / post types.
+Version: 2.0
+Author: Gabriel Mansour, based on the plugin by Bennett McElwee
 Author URI: http://www.thunderguy.com/semicolon/
 
-$Revision$
-
 Copyright (C) 2005-07 Bennett McElwee (bennett at thunderguy dotcom)
+Copyright (C) 2011 Gabriel Manosur (gabriel at gabrielmansour dotcom)
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of version 2 of the GNU General Public
@@ -29,7 +29,10 @@ DEVELOPMENT NOTES
 
 All template tags begin with "topcat_"
 All internal globals begin with "tguy_tc_" (for Thunderguy Top Cat)
-Tested with PHP 4.3.8, WordPress 1.5.x, 2.0.x, 2.1 beta 
+Tested with PHP 5.2.13, WordPress 3.1.x
+
+N.B.: While this plugin now works with Custom Taxonomies, it currently only 
+supports one prioritized taxonomy at a time.
 
 TO DO
 
